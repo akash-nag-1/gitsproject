@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form & Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scrolling Text -->
+    <div class="scrolling-text">
+        <p>PLEASE ENTER DETAILS IN THE FORM BELOW TO ACCESS THIS WEBSITE</p>
+    </div>
+
+    <div class="container">
+        <!-- Student Registration Form -->
+        <div class="form-container">
+            <h2>Student Registration Form</h2>
+            <form action="#">
+                <div class="input-field">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <div class="input-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+                <div class="input-field">
+                    <label for="course">Course</label>
+                    <select id="course" name="course">
+                        <option value="math">Mathematics</option>
+                        <option value="science">Science</option>
+                        <option value="history">History</option>
+                        <option value="art">Art</option>
+                    </select>
+                </div>
+                <div class="input-field">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob">
+                </div>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+
+        <!-- Login Form -->
+        <div class="form-container login-form">
+            <h2>Student Login</h2>
+            <form action="#">
+                <div class="input-field">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username">
+                </div>
+                <div class="input-field">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password">
+                </div>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
